@@ -1,0 +1,12 @@
+body{
+    /* background-color: aqua; */
+   background-image: url('index.jpeg');
+   background-repeat: repeat-x;
+
+h4{
+    color: rgb(250, 0, 0);
+}
+
+#second{
+    background-color: antiquewhite;
+}
