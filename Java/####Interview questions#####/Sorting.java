@@ -270,7 +270,7 @@ public class Sorting {
         // }
 
         // public static void main(String[] args) {
-        //         int arr[]={5,7,9,3,8,6,1,2,0};
+        //         int arr[]={5,1,9,3,8,6,2,0};
         //         InsertionSort(arr);
 
         //         for(int i=0;i<arr.length;i++)

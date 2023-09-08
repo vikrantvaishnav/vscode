@@ -390,6 +390,7 @@ public class JavaNotes
         // }
 
 
+
 /*
     Floyd's triangle
     1
@@ -462,20 +463,20 @@ public class JavaNotes
 // fibonacci series 
 
 
-        // int a=0;
-        // int b=1;
-        // int sum=1;
-        // int n;
-        // System.out.print("Enter a number: ");
-        // Scanner sc =new Scanner(System.in);
-        // n= sc.nextInt();
-        // while(sum<=n)
-        // {
-        //         System.out.print((" "+sum));
-        //         sum=a+b;
-        //         a=b;
-        //         b=sum;
-        // }
+//         int a=0;
+//         int b=1;
+//         int sum=1;
+//         int n;
+//         System.out.print("Enter a number: ");
+//         Scanner sc =new Scanner(System.in);
+//         n= sc.nextInt();
+//         while(sum<=n)
+//         {
+//                 System.out.print((" "+sum));
+//                 sum=a+b;
+//                 a=b;
+//                 b=sum;
+//         }
 
 //     }
 
@@ -825,6 +826,36 @@ public class JavaNotes
 //         printarr(arr);
         
 // }
+
+
+
+
+// public static void main(String[] args) {
+//         int n =153;
+//         int q =n;
+//         int m=0;
+//         while (q>0){
+//                 int y = q%10;
+//                 m+=y*y*y;
+//                 q=q/10;
+//         }
+//         if(n==m){
+//                 System.out.println("yes");
+//         }
+//         else{
+//                 System.out.println("no");
+//         }
+// }
+
+
+
+
+
+
+
+
+
+
 
 }
 

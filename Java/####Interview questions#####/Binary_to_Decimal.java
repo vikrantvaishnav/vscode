@@ -1,36 +1,45 @@
 public class Binary_to_Decimal {
     public static int getDecimal(int binary){  
         int decimal = 0;  
-        int n = 0;  
+        int n = 1;  
         while(true){  
           if(binary == 0){  
             break;  
           } else {  
               int temp = binary%10;  
-              decimal += temp*Math.pow(2, n);  
+    //           decimal += temp*Math.pow(2, n);  
+                 decimal+=(temp*n);
+                 n=n*2;
               binary = binary/10;  
-              n++;  
+        
            }  
         }  
         return decimal;  
     }  
     public static void main(String args[]){    
-    System.out.println("Decimal of 1010 is: "+getDecimal(1010)); 
+    System.out.println("Decimal of 1010 is: "+getDecimal(1111)); 
 
     }
+
+
+
+
+
+
+    
     // public static void main(String[] args) {
-        // int bin=1010;
-        // int deci=0;
-        // int rem;
-        // int j=0;
-        // for(int i=bin;i>0;i--)
-        // {
-        //     rem=bin%10;
-        //     deci=deci+(rem*j);
-        //     j=j*2;
-        //     bin=bin/10;
-        // }
-        // System.out.println(deci);
+    //     int bin=1010;
+    //     int deci=0;
+    //     int rem;
+    //     int j=1;
+    //     for(int i=bin;i>0;i--)
+    //     {
+    //         rem=bin%10;
+    //         deci=deci+(rem*j);
+    //         j=j*2;
+    //         bin=bin/10;
+    //     }
+    //     System.out.println(deci);
     // }
 
 

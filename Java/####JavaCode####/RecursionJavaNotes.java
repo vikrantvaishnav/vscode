@@ -333,26 +333,26 @@ public class RecursionJavaNotes {
 
 //  Print all permutation of a String
 
-    // public static void printperm(String str , String permutation)
-    // {
-    //     if (str.length()==0)
-    //     {
-    //         System.out.println(permutation);
-    //         return;
-    //     }
+    public static void printperm(String str , String permutation)
+    {
+        if (str.length()==0)
+        {
+            System.out.println(permutation);
+            return;
+        }
     
-    //     for(int i=0; i<str.length();i++ )
-    //     {
-    //         char currentchar =str.charAt(i);
-    //         String newstring = str.substring(0,i)+str.substring(i+1);
-    //         printperm(newstring, permutation+currentchar);
+        for(int i=0; i<str.length();i++ )
+        {
+            char currentchar =str.charAt(i);
+            String newstring = str.substring(0,i)+str.substring(i+1);
+            printperm(newstring, permutation+currentchar);
 
-    //     }
-    // }
-    // public static void main(String[] args) {
-    //     String str = "abc";
-    //     printperm(str, "");
-    // }
+        }
+    }
+    public static void main(String[] args) {
+        String str = "abcd";
+        printperm(str, "");
+    }
 
 
 //  Count total path in a maze n x m
