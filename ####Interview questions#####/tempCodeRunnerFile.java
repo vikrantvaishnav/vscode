@@ -1,0 +1,1 @@
+.charAt(0)+str
