@@ -168,7 +168,7 @@ public class Pallindrome_String {
                j--;
            }
       }
-        return true;
+        // return true;
         }
     }
 
