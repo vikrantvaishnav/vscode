@@ -5,31 +5,43 @@ public class RecursionJavaNotes {
 
     // public static void printnumb(int n)
     // {
-        // if(n>0)
-        // {
-        //     System.out.println(n);
-        //     printnumb(n-1);
-        // }
-        // else
-        // {
-        //     return;
-        // }
-                //OR
+    //     // if(n>0)
+    //     // {
+    //     //     System.out.print(n);
+    //     //     printnumb(n-1);
+    //     // }
+    //     // else
+    //     // {
+    //     //     return;
+    //     // }
+    //             //OR
 
     //     if(n==0)
     //     {
     //         return;
     //     }
 
-    //     System.out.println(n);
+    //     System.out.print(n);
     //     printnumb(n-1);
         
-    // }
+
 
     // public static void main(String[] args) {
     //     int n=5;
     //     printnumb(n);
     // } 
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -136,7 +148,7 @@ public class RecursionJavaNotes {
     //     TowerOfHanoi(n-1, helper, source, destination);
     // }
     // public static void main(String[] args) {
-    //     int n=7;
+    //     int n=3;
     //     TowerOfHanoi(n, "S", "H", "D");
     // }
 
@@ -333,25 +345,25 @@ public class RecursionJavaNotes {
 
 //  Print all permutation of a String
 
-    public static void printperm(String str , String permutation)
-    {
-        if (str.length()==0)
-        {
-            System.out.println(permutation);
-            return;
-        }
+    // public static void printperm(String str , String permutation)
+    // {
+    //     if (str.length()==0)
+    //     {
+    //         System.out.println(permutation);
+    //         return;
+    //     }
     
-        for(int i=0; i<str.length();i++ )
-        {
-            char currentchar =str.charAt(i);
-            String newstring = str.substring(0,i)+str.substring(i+1);
-            printperm(newstring, permutation+currentchar);
+    //     for(int i=0; i<str.length();i++ )
+    //     {
+    //         char currentchar =str.charAt(i);
+    //         String newstring = str.substring(0,i)+str.substring(i+1);
+    //         printperm(newstring, permutation+currentchar);
 
-        }
-    }
-    public static void main(String[] args) {
-        String str = "abcd";
-        printperm(str, "");
+    //     }
+    // }
+    // public static void main(String[] args) {
+    //     String str = "abcd";
+    //     printperm(str, "");
     }
 
 
@@ -440,4 +452,4 @@ public class RecursionJavaNotes {
     // }
 
 
-}
+// }

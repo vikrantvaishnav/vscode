@@ -18,17 +18,23 @@ public class Decimal_to_Binary {
     // }
 
 
-    public static void main(String[] args) {
-      int rem ;
-      int deci =10;
-      String bin="";
+    // public static void main(String[] args) {
+    //   int rem ;
+    //   int deci =10;
+    //   String bin="";
 
-      while(deci >0){
-        rem = deci %2;
-        String s= Integer.toString(rem);
-        bin = s+bin;
-        deci = deci/2;
-      }
-      System.out.println(bin);
-    }
+    //   while(deci >0){
+    //     rem = deci %2;
+    //     String s= Integer.toString(rem);
+    //     bin = s+bin;
+    //     deci = deci/2;
+    //   }
+    //   System.out.println(bin);
+    // }
+
+
+
+
+
+    
 }

@@ -1,3 +1,4 @@
+/* REMOVE DUPLICATE IN AN STRING */
 
 public class Remove_Duplicate {
     // public static boolean arr[] = new boolean[26];
@@ -44,6 +45,43 @@ public class Remove_Duplicate {
 
 
 
+
+
+
+
+
+
+
+
+/* REMOVE DUPLICATE IN AN INTEGER ARRAY WITOUT USING ANOTHER ARRAY */
+
+
+    static int removeDuplicate(int[] arr){
+        int rd = 0;
+
+        for(int i=0;i<arr.length;i++){
+            if(arr[rd] != arr[i]){
+                rd++;
+                arr[rd] = arr[i];
+            }
+            else{
+                continue;
+            }
+           
+        }
+         return rd+1;
+    }
+    public static void main(String[] args){
+
+        int rd =0;
+        int[] arr ={2,2,3,3,4,6,6};
+        rd = removeDuplicate(arr);
+
+        for(int i=0; i<rd;i++){
+             System.out.print(arr[i]+" ");
+        }
+    }
+    
 
 
 

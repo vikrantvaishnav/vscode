@@ -46,6 +46,16 @@ public class Sorting {
 
 
 
+
+
+
+
+
+
+
+
+
+
 // Binary Search
 
         /* The time complexity of Binary Search in best case is O(1)
@@ -54,7 +64,7 @@ public class Sorting {
 
 
 
-// public static void main(String[] args) {
+// public static void main(String[] args) {-
         //         int arr[]={10,30,40,50,60,80};
         //         int search=40;
         //         int n= arr.length;
@@ -62,7 +72,7 @@ public class Sorting {
         //         int end=n-1;
         //         while(start<=end)
         //         {
-        //                 int mid=(start+end)/2;
+        //                 int mid=(start+end)/2;            /*we can calculate mid by this "start+(end-start)/2" */
         //                 if(arr[mid]>search)
         //                 {
         //                         end =mid-1;
@@ -76,9 +86,6 @@ public class Sorting {
         //                 }
         //         }
 // }
-
-
-
 
 
 
@@ -113,6 +120,13 @@ public class Sorting {
 //         int search = Binary(arr, element);
 //         System.out.println(search);
 // }
+
+
+
+
+
+
+
 
 
 
@@ -209,6 +223,7 @@ public class Sorting {
 
 // public static void main(String[] args) {
 //         int arr[]={5,7,2,1,9,8,4};
+//         System.out.println(arr.length-1);
 //         Selection_sort(arr);
 
 //         for(int i=0;i<arr.length;i++)
@@ -253,31 +268,31 @@ public class Sorting {
 */
 
 
-        // public static void InsertionSort(int arr[]) {
+        public static void InsertionSort(int arr[]) {
                 
-        //         int n=arr.length;
-        //        for(int i=1;i<n;i++)  /* in this "i" indicates unsorted array */
-        //        {       int j=i-1;
-        //                 int temp=arr[i];
-        //                 while(j>=0 && arr[j]>temp)  /* in this "j" indicates sorted part of array */
-        //                 {
-        //                         arr[j+1]=arr[j];
-        //                         j--;
-        //                 }
-        //                 arr[j+1]=temp;
-        //         }
+                int n=arr.length;
+               for(int i=1;i<n;i++)  /* in this "i" indicates unsorted array */
+               {       int j=i-1;
+                        int temp=arr[i];
+                        while(j>=0 && arr[j]>temp)  /* in this "j" indicates sorted part of array */
+                        {
+                                arr[j+1]=arr[j];
+                                j--;
+                        }
+                        arr[j+1]=temp;
+                }
                
-        // }
+        }
 
-        // public static void main(String[] args) {
-        //         int arr[]={5,1,9,3,8,6,2,0};
-        //         InsertionSort(arr);
+        public static void main(String[] args) {
+                int arr[]={5,1,9,3,8,6,2,0};
+                InsertionSort(arr);
 
-        //         for(int i=0;i<arr.length;i++)
-        //         {
-        //                 System.out.print(arr[i]+" ");
-        //         }
-        // }
+                for(int i=0;i<arr.length;i++)
+                {
+                        System.out.print(arr[i]+" ");
+                }
+        }
 
 
 
