@@ -158,14 +158,17 @@ public class Pallindrome_String {
                     end++;
                 }
             }
-            // if (end == 1) return true;
-            int halfLen = end / 2;
-            //System.out.println("vars len:" + len + " end:" + end + " hL:" + halfLen);
-            for (int i = 0, j = end - 1; i < halfLen; i++, j--) {
-                //System.out.println(arr[i] + " " + arr[j]);
-                if (arr[i] != arr[j]) return false;
-            }
-            return true;
+            int i=0;
+        int j = end-1;
+        while (i <= j) {
+           if (arr[i] != arr[j]) {
+              return false;
+             } else {
+                i++;
+               j--;
+           }
+      }
+        return true;
         }
     }
 

@@ -17,7 +17,7 @@ public class Binary_to_Decimal {
         return decimal;  
     }  
     public static void main(String args[]){    
-    System.out.println("Decimal of 1010 is: "+getDecimal(1111)); 
+    System.out.println("Decimal of 1010 is: "+getDecimal(1010)); 
 
     }
 
