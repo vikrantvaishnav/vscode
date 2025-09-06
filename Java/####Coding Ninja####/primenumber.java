@@ -1,6 +1,6 @@
-public class prime_number {
+public class primenumber {
     
-<<<<<<< HEAD
+
     // public static void main(String[] args) {
     //     int n=10;
     //     int m =n/2;
@@ -25,7 +25,7 @@ public class prime_number {
     //         }
     //     }
     // }
-=======
+
     public static void main(String[] args) {
         int n=3;
         int m =n/2;
@@ -50,7 +50,7 @@ public class prime_number {
             }
         }
     }
->>>>>>> 14277af224bc42bca1a69127bd87ea043017ea37
+
 
 
 
@@ -94,52 +94,50 @@ public class prime_number {
 
 
 
-<<<<<<< HEAD
-    public static void main(String[] args) {
-        int n = 10;
-        printPrimeStatus(n);
 
-        printPrimeNumbers(20);
-    }
+    // public static void main(String[] args) {
+    //     int n = 10;
+    //     printPrimeStatus(n);
 
-    public static void printPrimeStatus(int n) {
-        if (n <= 1) {
-            System.out.println(n + " is not prime");
-        } else {
-            boolean isPrime = true;
-            for (int i = 2, m = n / 2; i <= m; i++) {
-                if (n % i == 0) {
-                    isPrime = false;
-                    break;
-                }
-            }
-            System.out.println(n + " is " + (isPrime ? "prime" : "not prime"));
-        }
-    }
+    //     printPrimeNumbers(20);
+    // }
 
-    public static void printPrimeNumbers(int n) {
-        for (int i = 1; i <= n; i++) {
-            if (isPrime(i)) {
-                System.out.print(i + ",");
-            }
-        }
-    }
+    // public static void printPrimeStatus(int n) {
+    //     if (n <= 1) {
+    //         System.out.println(n + " is not prime");
+    //     } else {
+    //         boolean isPrime = true;
+    //         for (int i = 2, m = n / 2; i <= m; i++) {
+    //             if (n % i == 0) {
+    //                 isPrime = false;
+    //                 break;
+    //             }
+    //         }
+    //         System.out.println(n + " is " + (isPrime ? "prime" : "not prime"));
+    //     }
+    // }
 
-    public static boolean isPrime(int n) {
-        if (n <= 1) {
-            return false;
-        }
-        for (int i = 2, m = n / 2; i <= m; i++) {
-            if (n % i == 0) {
-                return false;
-            }
-        }
-        return true;
-    }
+    // public static void printPrimeNumbers(int n) {
+    //     for (int i = 1; i <= n; i++) {
+    //         if (isPrime(i)) {
+    //             System.out.print(i + ",");
+    //         }
+    //     }
+    // }
 
-
+    // public static boolean isPrime(int n) {
+    //     if (n <= 1) {
+    //         return false;
+    //     }
+    //     for (int i = 2, m = n / 2; i <= m; i++) {
+    //         if (n % i == 0) {
+    //             return false;
+    //         }
+    //     }
+    //     return true;
+    // }
 
 
-=======
->>>>>>> 14277af224bc42bca1a69127bd87ea043017ea37
 }
+
+
