@@ -1,0 +1,18 @@
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: space;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid gray;
+
+
+}
+nav>img{
+    height: 30px;
+}
