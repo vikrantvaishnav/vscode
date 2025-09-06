@@ -48,8 +48,12 @@ public class Recursion{
         //             System.out.print("  ");
         //         }
     
+<<<<<<< HEAD
         //         // Print 0s and public class Recursion {
    
+=======
+        //         // Print 0s and 1s
+>>>>>>> 14277af224bc42bca1a69127bd87ea043017ea37
         //         for (int k = 1; k <= i; k++) {
         //             if ((i + k) % 2 == 0) {
         //                 System.out.print("1 ");

@@ -1,5 +1,6 @@
 public class prime_number {
     
+<<<<<<< HEAD
     // public static void main(String[] args) {
     //     int n=10;
     //     int m =n/2;
@@ -24,6 +25,32 @@ public class prime_number {
     //         }
     //     }
     // }
+=======
+    public static void main(String[] args) {
+        int n=3;
+        int m =n/2;
+        int flag=0;
+            if(n==0||n==1)
+            {
+                System.out.println(n+" is not prime");
+            }
+            else{
+                for(int i=2;i<m;i++)
+                {
+                if(n%i==0)
+                {
+                    System.out.println(n+" is not prime");
+                    flag=1;
+                    break;
+                }
+            }
+            if(flag==0)
+            {
+                System.out.println(n+" is prime");
+            }
+        }
+    }
+>>>>>>> 14277af224bc42bca1a69127bd87ea043017ea37
 
 
 
@@ -67,6 +94,7 @@ public class prime_number {
 
 
 
+<<<<<<< HEAD
     public static void main(String[] args) {
         int n = 10;
         printPrimeStatus(n);
@@ -112,4 +140,6 @@ public class prime_number {
 
 
 
+=======
+>>>>>>> 14277af224bc42bca1a69127bd87ea043017ea37
 }

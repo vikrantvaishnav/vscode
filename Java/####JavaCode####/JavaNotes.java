@@ -1,5 +1,8 @@
 import java.rmi.server.SocketSecurityException;
+<<<<<<< HEAD
 import java.util.Arrays;
+=======
+>>>>>>> 14277af224bc42bca1a69127bd87ea043017ea37
 import java.util.Scanner;
 import java.io.*;
 import java.lang.Math.*;
@@ -851,6 +854,7 @@ public class JavaNotes
 
 
 
+<<<<<<< HEAD
 //## VarArgs (variable arguments)
 // public static void main(String[] args) {
 //         fun(2,5,3,8,6,75);
@@ -860,6 +864,11 @@ public class JavaNotes
 //         System.out.println(Arrays.toString(var));//convert whole array into String
 //         // System.out.println(var[1]);
 // }
+=======
+
+
+
+>>>>>>> 14277af224bc42bca1a69127bd87ea043017ea37
 
 
 

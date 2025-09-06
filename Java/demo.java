@@ -110,6 +110,7 @@ class demo
 
 
 public static void main(String[] args) {
+<<<<<<< HEAD
     int n=5;
     for(int i=1;i<=n;i++){
         for(int j=1;j<=n-i;j++){
@@ -124,6 +125,23 @@ public static void main(String[] args) {
             System.out.print(j+" ");}
         }
         
+=======
+    int n= 5;
+    int px=n;
+    int py = n;
+    for(int i=1;i<=n;i++){
+
+        for(int j=1;j<2*n;j++){
+            if(j==px||j==py||i==n){
+                System.out.print("* ");
+            }
+            else{
+                System.out.print("  ");
+            }
+        }
+        px--;
+        py++;
+>>>>>>> 14277af224bc42bca1a69127bd87ea043017ea37
         System.out.println();
     }
 }
