@@ -1,0 +1,106 @@
+*{
+    border: 0px;
+    margin: 0px;
+}
+h1{
+    text-align: center;
+    color: blueviolet;
+}
+h2{
+    color: rgb(43, 79, 189);
+}
+.div1{
+    border: solid 1px red;
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    
+}
+
+.p1,.p2,.p3{
+    background-color: rgb(120, 53, 197);
+    color: aliceblue;
+    height: 2cm;
+    width: 2cm;
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.div2{
+    border: solid 1px red;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    
+}
+
+.div3{
+    border: solid 1px red;
+    display: flex;
+    flex-direction: row-reverse;
+    height: auto;
+    
+}
+
+.div4{
+    border: solid 1px red;
+    display: flex;
+    flex-direction: column-reverse;
+    height: auto;
+    
+}
+
+
+.div5{
+    border: solid 1px red;
+    display: flex;
+    justify-content: flex-start;
+    height: auto;
+    
+}
+.div6{
+    border: solid 1px red;
+    display: flex;
+    justify-content: flex-end;
+    height: auto;
+    
+}
+
+.div7{
+    border: solid 1px red;
+    display: flex;
+    justify-content: center;
+    height: auto;
+    
+}
+
+.div8{
+    border: solid 1px red;
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    
+}
+
+
+.div9{
+    border: solid 1px red;
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+    
+}
+
+.div10{
+    border: solid 1px red;
+    display: flex;
+    justify-content: space-evenly;
+    height: auto;
+    
+}
+
