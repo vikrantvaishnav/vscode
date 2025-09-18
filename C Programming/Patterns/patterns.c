@@ -1175,3 +1175,407 @@
 //     }
 // }
 
+
+
+
+/*
+    1
+    1 2
+    1 2 3
+    1 2 3 4
+    1 2 3 4 5
+    1 2 3 4
+    1 2 3
+    1 2
+    1
+*/
+
+// void main(){
+//   int n=5;
+//   for(int i=1;i<=n;i++){
+//       for(int j=1;j<=i;j++){
+//         printf("%2d",j);
+//       }
+//       printf("\n");
+//   }
+//    for(int i=1;i<=n;i++){
+//       for(int j=1;j<=n-i;j++){
+//         printf("%2d",j);
+//       }
+//       printf("\n");
+//   }
+// }
+
+
+
+
+
+
+
+
+/*
+         1
+       2 1
+     3 2 1
+   4 3 2 1
+ 5 4 3 2 1
+   4 3 2 1
+     3 2 1
+       2 1
+         1
+*/
+
+// void main(){
+//   int n=5;
+//   for(int i=1;i<=n;i++){
+//       for(int j=n;j>=1;j--){
+//         if(i>=j){
+//         printf("%2d",j);
+//         }
+//         else{
+//           printf("  ");
+//         }
+//       }
+//       printf("\n");
+//   }
+//    for(int i=1;i<=n;i++){
+//      for(int j=n;j>=1;j--){
+//         if(i+j<n+1){
+//         printf("%2d",j);
+//         }
+//         else{
+//           printf("  ");
+//         }
+//       }
+//       printf("\n");
+//   }
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+              1
+           3  2  1
+        5  4  3  2  1
+     7  6  5  4  3  2  1
+  9  8  7  6  5  4  3  2  1
+*/
+
+// void main(){
+//   int n=5,num=1,temp=num;
+//   for(int i=1;i<=n;i++){
+//     for(int j=1;j<=n+i-1;j++){
+//         if(i+j>=n+1){
+//           printf("%3d",num);
+//           num--;
+//         }
+//         else{
+//           printf("   ");
+//         }
+//     }
+//     num= temp+=2;  
+//     printf("\n");
+//   }
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+              1
+           2  1  2
+        3  2  1  2  3
+     4  3  2  1  2  3  4
+  5  4  3  2  1  2  3  4  5
+*/
+
+// void main(){
+//   int n=5;
+//   for(int i=1;i<=n;i++){
+//     int num =i;
+//     for(int j=1;j<=n+i-1;j++){
+//         if(i+j>=n+1&& j<=5){
+//           printf("%3d",num--);          
+//         }
+//         else if(i+j>=n+1){
+//           num=j-4;
+//           printf("%3d",num);          
+//         }
+//         else{
+//           printf("   ");
+//         }
+//     }  
+//     printf("\n");
+//   }
+// }
+
+
+
+
+
+
+/*
+* * * * * * * * * 
+  * * * * * * *
+    * * * * *
+      * * *
+        *
+*/
+
+
+
+// void main(){
+//   int n=5;
+//   for(int i=1;i<=n;i++){
+//     for(int j=1;j<=2*n-1;j++){
+//       if(j<i){
+//         printf("  ");
+//       }
+//       else if(j<=2*n-i){
+//         printf("* ");
+//       }
+//     }
+//     printf("\n");
+//   }
+// }
+
+// void main(){
+//   int n=5;
+//   for(int i=1;i<=n;i++){
+//     for(int j=1;j<=2*n-i;j++){
+//       if(j>=i){
+//         printf("* ");
+//       }
+//       else{
+//         printf("  ");
+//       }
+//     }
+//     printf("\n");
+//   }
+// }
+
+// int main() {
+//     int n = 5; 
+//     for (int i = 1; i <= n; i++) {
+//         for (int s = 1; s < i; s++) {
+//             printf("  ");  
+//         }
+//         for (int j = 1; j <= 2*(n - i) + 1; j++) {
+//             printf("* ");
+//         }
+//         printf("\n");
+//     }
+//     return 0;
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+    *     * * * * 
+    *     *
+    *     *
+    * * * * * * *
+          *     *
+          *     *
+    * * * *     *
+*/
+
+// void main(){
+//   int n=7;
+//   int mid =(n+1)/2;
+//   for(int i=1;i<=n;i++){
+//     for(int j=1;j<=n;j++){
+//         if(j==mid||i==mid||i==n&&j<=mid||j==1&&i<=mid||i==1&&j>mid||j==n&&i>mid){
+//           printf("* ");
+//         }
+//         else{
+//           printf("  ");
+//         }
+//     }
+//     printf("\n");
+//   }  
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+    * * * * * * * 
+    *     *     *
+    *     *     *
+    * * * * * * *
+    *     *     *
+    *     *     *
+    * * * * * * *
+*/
+
+// void main(){
+//   int n=7;
+//   int mid =(n+1)/2;
+//   for(int i=1;i<=n;i++){
+//     for(int j=1;j<=n;j++){
+//         if(j==mid||i==mid||i==1||i==n||j==1||j==n){
+//           printf("* ");
+//         }
+//         else{
+//           printf("  ");
+//         }
+//     }
+//     printf("\n");
+//   }  
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+        * 
+      * * *
+    * * * * *
+  * * * * * * *
+* * * * * * * * *
+  * * * * * * *
+    * * * * *
+      * * *
+        *
+*/
+
+// void main(){
+//   int n=5;
+//   for(int i=1;i<=n;i++){
+//     for(int j=1;j<=n-i;j++){
+//       printf("  ");
+//     }
+//     for(int j=1;j<=2*i-1;j++){
+//        printf("* ");
+//     }
+//     printf("\n");
+//   }
+//   for(int i=n-1;i>=1;i--){
+//     for(int j=1;j<=n-i;j++){
+//         printf("  ");
+//     }
+//     for(int j=1;j<=2*i-1;j++){
+//        printf("* ");
+//     }
+//     printf("\n");
+//   }
+// }
+
+
+
+
+
+/*
+*************
+****** ******
+*****   *****
+****     ****
+***       ***
+**         **
+*           *
+**         **
+***       ***
+****     ****
+*****   *****
+****** ******
+*************
+*/
+
+
+
+int main() {
+    int n = 7; // controls size (odd number looks best)
+
+    // Upper half
+    for (int i = 1; i <= n; i++) {
+        for (int j = i; j < n; j++) {
+            printf("*");
+        }
+        for (int j = 1; j <= (2 * i - 1); j++) {
+            if (j == 1 || j == (2 * i - 1))
+                printf("*");
+            else
+                printf(" ");
+        }
+        for (int j = i; j < n; j++) {
+            printf("*");
+        }
+        printf("\n");
+    }
+
+    // Lower half
+    for (int i = n - 1; i >= 1; i--) {
+        for (int j = n; j > i; j--) {
+            printf("*");
+        }
+        for (int j = 1; j <= (2 * i - 1); j++) {
+            if (j == 1 || j == (2 * i - 1))
+                printf("*");
+            else
+                printf(" ");
+        }
+        for (int j = n; j > i; j--) {
+            printf("*");
+        }
+        printf("\n");
+        
+    }
+
+    return 0;
+}
+
+
+
