@@ -52,3 +52,65 @@ console.log("hello world");
 //     console.log("Incorrect password. (Please try again)")
 //   }
 // }
+
+
+
+
+
+// let n = +prompt("Enter array size");
+// let number = [];
+// for (let i = 0; i < n; i++) {
+//   let num = +prompt("enter values:");
+//   number.push(num);
+// }
+
+// console.log(number);
+
+// let number = [24, 45, 65, 34, 64];
+// console.log(number);
+
+// for (let i = 0; i < number.length - 1; i++) {
+//   let minindex = i;
+//   for (let j = i + 1; j < number.length; j++) {
+//     if (number[j] < number[minindex]) {
+//       minindex = j;
+//     }
+//   }
+//   let temp = number[i];
+//   number[i] = number[minindex];
+//   number[minindex] = temp;
+// }
+// console.log(number);
+
+
+
+
+
+
+
+
+
+
+// let c = 0;
+// let ele=  document.getElementById('count')
+// function incr ()
+// {
+//     c++;
+//    ele.textContent = c;  
+// }
+// function decr ()
+// {
+//     if (c > 0)
+//     {
+//         c--
+//                 ele.textContent = c
+//     }  
+//     else
+//     {
+//         alert("number should not be less than zero");
+//     }
+// }
+// function reset() {
+//     c = 0;
+//     ele.textContent = c
+// }
