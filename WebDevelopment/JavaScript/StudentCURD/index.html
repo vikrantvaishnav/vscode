@@ -11,11 +11,14 @@
     <form action="" id="fr" class="hide">
         <input type="text" id="name" placeholder="Enter Name">
         <input type="email" id="email" placeholder="Enter Email ">
-        <input type="password" id="password" placeholder="Enter password">
-     
-        <input type="password" id="cnfrmPwd" placeholder="Enter password again">
-
-        
+        <div style="position:relative;">
+            <input type="password" id="password" placeholder="Enter password">
+            <button type="button" id="showPwd" style="position:absolute;right:0;top:0;">Show</button>
+        </div>
+        <div style="position:relative;">
+            <input type="password" id="cnfrmPwd" placeholder="Enter password again">
+            <button type="button" id="showCnfrmPwd" style="position:absolute;right:0;top:0;">Show</button>
+        </div>
         <div id="errorsDiv"></div>
         <button type="submit">Submit</button>
     </form>
