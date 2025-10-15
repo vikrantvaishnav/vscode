@@ -1,0 +1,6 @@
+<script>
+    fetch(`https://zenquotes.io/api/random`)
+  .then(res => res.json())
+  .then(data => console.log(data[0].q))
+  .catch(error => console.error('Error fetching quote:', error));
+</script>

@@ -1,0 +1,42 @@
+body {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: #fff;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    background: rgba(0,0,0,0.4);
+    padding: 32px 24px;
+    border-radius: 12px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.2);
+    text-align: center;
+}
+#quoteBox {
+    margin-bottom: 24px;
+}
+#quoteText {
+    font-size: 1.3em;
+    margin-bottom: 8px;
+}
+#quoteAuthor {
+    font-style: italic;
+    color: #ffd700;
+}
+button {
+    background: #ffd700;
+    color: #222;
+    border: none;
+    padding: 10px 24px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+    transition: background 0.2s;
+}
+button:hover {
+    background: #fff700;
+}
