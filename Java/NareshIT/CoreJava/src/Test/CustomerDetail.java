@@ -13,6 +13,7 @@ public class CustomerDetail {
 		
 		System.out.println(Customer.getCustomerDetails(id, name, bill));
 		
+		
 	}
 
 }

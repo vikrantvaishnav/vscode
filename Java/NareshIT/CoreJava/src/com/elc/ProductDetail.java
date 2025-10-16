@@ -21,8 +21,9 @@ public class ProductDetail {
 		
 		
 		pi.setProductData(id, name, price);
+		System.out.println(pi);
+		pi.calculateDiscount();
 		
-		pi.getProductInfo();
 		sc.close();
 		
 		

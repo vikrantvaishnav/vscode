@@ -23,7 +23,7 @@ public class EmployeeData {
 		
 		pi.setProductData(id, name, price);
 		
-		pi.getProductInfo();
+//		pi.getProductInfo();
 		sc.close();
 
 	}
