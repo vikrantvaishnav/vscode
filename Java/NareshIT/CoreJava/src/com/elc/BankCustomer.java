@@ -22,7 +22,7 @@ public class BankCustomer {
 			System.out.println("======MENU=====");
 			System.out.println("1. Deposit\n2. Withdraw\n3. Check Balance\n4. Display Customer Details\n5. Exit");
 			
-			System.out.print("Enter your choise:");
+			System.out.print("Enter your choice: ");
 			int choise = sc.nextInt();
 			switch(choise) {
 			case 1 -> {
