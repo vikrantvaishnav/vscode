@@ -17,5 +17,6 @@ public class InputMisMatchExceptiondemo {
 			e.printStackTrace();
 			IO.println(e.toString());
 		}
+		sc.close();
 	}
 }
