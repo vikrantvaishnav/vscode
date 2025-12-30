@@ -22,7 +22,7 @@ public class ProductArrayDemo {
 		Integer search = sc.nextInt();
 		
 		for(Product pro :arr) {
-			if(pro.getId().equals( search)) {
+			if(pro.getId().equals(search)) {
 				IO.println("Product Found: "+pro);
 				System.exit(0);
 			}
