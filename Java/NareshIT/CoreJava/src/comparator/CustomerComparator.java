@@ -1,7 +1,6 @@
 package comparator;
 
 import java.util.Collections;
-import java.util.Comparator;
 import java.util.Vector;
 
 public class CustomerComparator {
