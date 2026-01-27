@@ -58,7 +58,7 @@ public class JdbcPro3 {
 		IO.println("Enter Employee details");
 		
 		try {
-			String Id = IO.readln("Enter Employee ID");
+			String Id = IO.readln("E nter Employee ID");
 			String Fname = IO.readln("Enter Employee First Name:");
 			String Lname = IO.readln("Enter Employee Last Name:");
 			Integer sal = Integer.parseInt(IO.readln("Enter employee salary:"));
