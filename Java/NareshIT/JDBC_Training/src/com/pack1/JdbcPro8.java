@@ -58,11 +58,13 @@ public class JdbcPro8
 			
 			System.out.println("Data Inserted!!!!");
 			
-			
+			con.close();
 		}
 		catch(Exception e)
 		{
+			
 			e.printStackTrace();
+			
 		}
 	}
 	
@@ -90,7 +92,7 @@ public class JdbcPro8
 			IO.println("-------Employee Data-------");
 			
 			IO.println("Employee Id: "+e_id+"\nEmployee Name: "+cstmt.getString(2)+"\nEmployee Desg: "+cstmt.getString(3)+"\nEmployee Basic Sal: "+cstmt.getInt(4)+"\nEmployee Total Sal: "+cstmt.getInt(5));
-			 
+			con.close();
 		}
 		catch(Exception e) {
 			e.printStackTrace();
@@ -113,13 +115,13 @@ public class JdbcPro8
 			
 			
 			
+			con.close();
 		}
 		catch(Exception e) {
 			e.printStackTrace();
 		}
 		
-		
-	}
+			}
 	
 	public static void main(String[] args)
 	{
